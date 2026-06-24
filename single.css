@@ -1,0 +1,318 @@
+.prodImage {
+    width: 102px;
+    height: 99px;
+}
+
+.productImage {
+    width: 606px;
+    height: 524px;
+}
+
+
+
+.quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    border: 1px solid #000;
+    width: 102px;
+    height: 48px;
+    border-radius: 9px;
+}
+
+.quantity p {
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.like {
+    border: #000 1px solid;
+    border-radius: 55%;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.proInfo {
+    width: 730px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.quan {
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+
+}
+
+.addCard {
+    width: 732px;
+    height: 56px;
+    margin-top: 20px;
+    border: 1px solid #000;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+
+}
+.addCard a{
+    text-decoration: none;
+    color: #000;
+}
+.flight {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.flight img {
+    width: 25px;
+    height: 25px;
+}
+
+.cube {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+}
+
+.cube img {
+    width: 25px;
+    height: 25px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.imgs img {
+    width: 120px;
+    height: 109px;
+    margin-top: 20px;
+    object-fit: cover;
+    overflow: hidden;
+    display: block;
+}
+
+.img img {
+    width: 600px;
+    height: 600px;
+
+    border-top-right-radius: 60px;
+}
+
+.singleProduct {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 30px;
+}
+
+
+.prodHead p {
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    color: #5F5F5F;
+}
+
+.prod-title {
+    padding: 30px;
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    color: #5F5F5F;
+}
+
+.extraDesHead {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+}   
+.prode img {
+    margin-left: -10px;
+    width: 350px;
+    height: 1px;
+}
+
+.prode p {
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.shippP{
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: #A5A5A5;
+    cursor: pointer;
+
+}
+#descrip{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin-top: 14px;
+}
+#descrip h1{
+    text-align: center;
+}
+#composition h1{
+    text-align: center;
+}
+#information h1{
+    text-align: center;
+}
+#size h1{
+    text-align: center;
+}
+
+#careTips{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+#careTips h1{
+    text-align: center;
+}
+.inf{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 30px;
+}
+.inf h1{
+    font-family: Libre Caslon Text;
+font-weight: 700;
+font-size: 16px;
+letter-spacing: 2px;
+text-transform: capitalize;
+color: #A5A5A5;
+cursor: pointer;
+}
+#descrip p{
+    font-family: Libre Caslon Text;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 2px;
+}
+#composition p{
+    font-family: Libre Caslon Text;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 2px;
+text-transform: capitalize;
+color: #A5A5A5;
+}
+#information p{
+    font-family: Libre Caslon Text;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 2px;
+text-transform: capitalize;
+color: #A5A5A5;
+
+}
+#size p{
+    
+font-family: Libre Caslon Text;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 2px;
+text-transform: capitalize;
+color: #A5A5A5;
+}
+
+#careTips p{
+    font-family: Libre Caslon Text;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 2px;
+text-transform: capitalize;
+color: #A5A5A5;
+}
+.shippingP{
+
+
+font-family: Libre Caslon Text;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 1px;
+}
+
+
+.infoP{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.prodArrow{
+    width: 354px;
+    border: solid 1px;
+}
+.compoArrow{
+    width: 228px;
+    border: 1px solid;
+    margin-top: 13px;
+}
+
+.infoArrow{
+    width: 228px;
+    border: 1px solid;
+    margin-top: 13px;
+}
+.sizeArrow{
+    width: 228px;
+    border: 1px solid;
+    margin-top: 13px;
+}
+
+.careArrow{
+    width: 354px;
+    border: solid 1px;
+}
+
+.prode{
+    position: relative;
+}

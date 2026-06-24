@@ -1,0 +1,152 @@
+.prodDes{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+} 
+.likeVec{
+    margin-top: 15px;
+    cursor: pointer;
+    fill: none
+}
+.container{
+    padding-top: 50px;
+    padding-left: 30px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+aside{
+    padding: 15px;
+    width: 280px;
+    height: 879px;
+    border: 1px solid #000;
+}
+aside h4{
+    font-family: Libre Caslon Text;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 1px;
+text-transform: capitalize;
+
+}
+
+aside ul{
+    list-style: none;
+    padding: 0px;
+}
+aside li{
+    margin: 10px;
+}
+aside input{
+    margin-right: 10px;
+}
+.shopHead{
+    padding-left: 30px;
+}
+.shopHead h1{
+    font-family: Libre Caslon Text;
+font-weight: 500;
+font-size: 50px;
+letter-spacing: 4px;
+text-transform: uppercase;
+margin-bottom: 0px;
+}
+
+.shopHead p{
+    font-family: Libre Caslon Text;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 2px;
+text-transform: capitalize;
+color: #5F5F5F;
+}
+
+.prop{
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.prop img{
+    cursor: pointer;
+    margin-top: 28px;
+    width: 10.5px;
+    height: 5.7px;
+    rotate: 180deg;
+}
+
+.pages{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.pages img{
+    width: 13px;
+    height: 10px;
+    margin-top: 48px;
+    cursor: pointer;
+}
+.pages p{
+font-family: Libre Caslon Text;
+font-weight: 500;
+font-size: 25px;
+cursor: pointer;
+}
+
+.p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 56px;
+    height: 56px;
+    border: 1px solid #000;
+    border-radius: 58%;
+}
+.p2{
+    margin-top: 40px;
+}
+.heritage{
+    font-family: Libre Caslon Text;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 1px;
+text-transform: capitalize;
+color: #5F5F5F;
+}
+.prName{
+font-family: Libre Caslon Text;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 1px;
+text-transform: capitalize;
+}
+.prPrice{
+    font-family: Libre Caslon Text;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+}
+
+
+.filterList{
+    display: none;
+}
+
+.prod{
+    cursor: pointer;
+}
+.prod:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}

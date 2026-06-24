@@ -1,0 +1,277 @@
+.logContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.loghead {
+    font-family: Libre Caslon Text;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+
+.account {
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #5F5F5F;
+    text-align: center;
+
+}
+
+.login {
+    width: 732px;
+    height: 582px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.login h1 {
+    font-family: Libre Caslon Text;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: -50px;
+}
+
+.forgot {
+    font-family: Libre Caslon Text;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 400px;
+    cursor: pointer;
+
+}
+
+.signin {
+    width: 604px;
+    height: 64px;
+    border: 1px solid #000;
+    border-radius: 45px;
+    background-color: #000;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.register {
+    width: 604px;
+    height: 64px;
+    border: 1px solid #000;
+    border-radius: 45px;
+    text-decoration: none;
+}
+
+.signin p {
+    font-family: Libre Caslon Text;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+.register p {
+    font-family: Libre Caslon Text;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+}
+
+input {
+    padding-left: 10px;
+    width: 595px;
+    height: 55px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    border: #000 solid 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.terms {
+    text-decoration-line: underline;
+}
+
+.regist {
+    width: 604px;
+    height: 64px;
+    border: 1px solid #000;
+    border-radius: 45px;
+    background-color: #000;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.sign {
+    width: 604px;
+    height: 64px;
+    border: 1px solid #000;
+    border-radius: 45px;
+    text-decoration: none;
+}
+
+.sign p {
+    font-family: Libre Caslon Text;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+}
+
+.regist p {
+    font-family: Libre Caslon Text;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+.regContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.reg {
+    width: 732px;
+    height: 582px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.reg h1 {
+    font-family: Libre Caslon Text;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: -50px;
+    margin-bottom: 40px;
+}
+
+.iAgree {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-left: -450px;
+}
+
+#arrow {
+    width: 22px;
+    height: 22px;
+    margin-top: 15px;
+}
+
+.pp {
+    display: flex;
+    gap: 2px;
+}
+
+.terms {
+    cursor: pointer;
+}
+
+@media (max-width: 780px) {
+    .logimg img {
+        width: 600px;
+    }
+    .login{
+        width: 600px;
+    }
+    .reg{
+        width: 600px;
+
+    }
+    .iAgree{
+        margin-left: -400px;
+    }
+    input{
+        width: 550px;
+    }
+    .signin{
+        width: 550px;
+    }
+    .register{
+        width: 550px;
+    }
+    .regist{
+        width: 550px;
+    }
+    .sign{
+        width: 550px;
+    }
+}
+@media (max-width: 620px) {
+    .logimg img {
+        width: 500px;
+    }
+    .login{
+        width: 500px;
+    }
+    .reg{
+        width: 500px;
+    }
+    input{
+        width: 470px;
+    }
+    .signin{
+        width: 470px;
+    }
+    .register{
+        width: 470px;
+    }
+    .forgot{
+        margin-left: 200px;
+    }
+    .iAgree{
+        margin-left: -300px;
+    }
+    .regist{
+        width: 470px;
+    }
+    .sign{
+        width: 470px;
+    }
+}

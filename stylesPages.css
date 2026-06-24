@@ -1,0 +1,1405 @@
+.secondPage {
+    padding: 150px 5px;
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+}
+
+.sec1 {
+    display: flex;
+}
+
+.sPframe1 {
+    width: 598px;
+    height: 712px;
+    margin-left: 20px;
+}
+
+.secpageimg {
+    position: absolute;
+    width: 606px;
+    height: 683px;
+    margin-top: 20px;
+}
+
+.textabout {
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+
+}
+
+.heading {
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 60px;
+    text-transform: uppercase;
+    /* white-space: nowrap; */
+}
+
+.sec2 {
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.seemoreimg {
+    display: flex;
+    justify-content: center;
+    width: 256px;
+    height: 64px;
+}
+
+.seemore {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: justify;
+}
+
+.seemoretext {
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50%;
+    letter-spacing: 9%;
+    text-transform: uppercase;
+    position: absolute;
+
+
+}
+
+
+@media (max-width: 930px) {
+    .secondPage {
+        padding: 150px 40px;
+        flex-wrap: wrap;
+    }
+}
+
+.thirdPage {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.parts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.aside3p {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    width: 200px;
+    height: 700px;
+    margin-top: 100px;
+}
+
+.aside3p h1 {
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 60px;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+}
+
+
+
+.byjewellery {
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 15px;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    margin-left: 70px;
+    margin-top: -230px;
+}
+
+.shop h1 {
+    font-family: Libre Caslon Text;
+    font-weight: 500;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.png {
+    width: 354px;
+    height: 474px;
+    /* transition: all 0.3s ease; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transform: scale(1);
+}
+
+.png:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.03);
+}
+
+.part1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.t1 {
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.t2 {
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.t3 {
+    font-family: Libre Caslon Text;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 5px;
+
+}
+
+.destext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.elipse {
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+}
+
+.arrow {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.elipseRound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.allButtom {
+    width: 164px;
+    height: 64px;
+}
+
+.alltext {
+    font-size: 16px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 20px;
+
+}
+
+.buttoms {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    gap: 150px;
+}
+
+.productName {
+    text-transform: uppercase;
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 9px;
+
+}
+
+
+
+
+
+.fourthPage h1 {
+    font-family: Libre Caslon Text;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 50px;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.productDes {
+    display: flex;
+    justify-content: center;
+}
+
+.heading4p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.aside4p {
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+.aside4p h1 {
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 60px;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transform: rotate(90deg);
+}
+
+.aside4p p {
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 15px;
+    white-space: nowrap;
+    transform: rotate(90deg);
+    padding: 7px;
+    margin-top: 220px;
+    margin-right: 80px;
+}
+.fourthPage {
+    display: inline-block;
+
+}
+.page4 {
+    width: 99%;
+    display: grid;
+    grid-template-columns: 95% 5%;
+    position: relative;
+    margin-top: 40px;
+    background-color: #FFFDFC;
+}
+.backDes {
+    position: absolute;
+    margin-top: 400px;
+}
+
+.behindt1 {
+    position: absolute;
+    max-width: 700px;
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 9px;
+    text-transform: capitalize;
+    color: #D2D2D2;
+    transform: rotate(-30deg);
+    margin-left: -180px;
+    margin-top:120px;
+    overflow: hidden;
+    fill: none;
+    opacity: 0.4;
+}
+
+.behindt2 {
+    width: 400px;
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 9px;
+    text-transform: capitalize;
+    color: #D2D2D2;
+    transform: rotate(30deg);
+    margin-left: -50px;
+    margin-top: -130px;
+    overflow: hidden;
+    position: absolute;
+    opacity: 0.4;
+}
+
+.fifthPage {
+    margin-top: 200px;
+}
+
+.aside5t {
+    display: inline-block;
+    margin-top: 200px;
+    position: absolute;
+    transform: rotate(-90deg);
+    margin-right: 1200px;
+}
+
+.aside5t p {
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+    color: #A5A5A5;
+    white-space: nowrap;
+    margin: 0px;
+}
+
+.heading5 {
+    display: flex;
+    justify-content: center;
+}
+
+.heading5 h1 {
+    font-family: Libre Caslon Text;
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.p5parts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-left: 80px;
+}
+
+.p5part1 {
+    display: flex;
+    margin-top: 60px;
+}
+
+.p5fr1 {
+    width: 305px;
+    height: 461px;
+}
+
+.p5img1 {
+    width: 289px;
+    height: 433px;
+    position: absolute;
+    margin-top: 25px;
+}
+
+.p5part2 {
+    display: flex;
+}
+
+.p5fr2 {
+    width: 355px;
+    height: 548px;
+}
+
+.p5img2 {
+    width: 343px;
+    height: 525px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 18px;
+    margin-bottom: 20px;
+}
+
+.inputs {
+    margin-top: 25px;
+}
+
+.commentInputs input {
+    padding: 10px;
+    width: 606px;
+    height: 55px;
+    margin: 9px;
+    border-radius: 20px;
+    border: #000 solid 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.stars {
+    padding: 20px;
+}
+
+.star{
+    width: 49px;
+    height: 49px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.star:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s;
+}
+
+.sendBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.sendBtn img {
+    width: 164px;
+    height: 64px;
+}
+
+.sendBtn p {
+    position: absolute;
+    display: inline-block;
+    font-size: 16px;
+    
+    align-content: center;
+}
+
+.page5 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+@media (max-width: 800px) {
+    .heading5 h1 {
+        font-size: 35px;
+    }
+}
+
+
+
+@media (max-width: 550px) {
+    .aside3p {
+        width: 170px;
+    }
+
+    .commentInputs input {
+        width: 390px;
+        height: 25px;
+    }
+
+    .sPframe1 {
+        width: 350px;
+        height: 490px;
+    }
+
+    .secpageimg {
+        width: 350px;
+        height: 490px;
+    }
+
+}
+
+.peopleOptions {
+    margin-top: 200px;
+    margin-bottom: 100px;
+
+}
+
+.optparts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 50px;
+}
+
+.peopleOptions h1 {
+    font-family: Libre Caslon Text;
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+}
+
+.optfr1 {
+    width: 390px;
+    height: 190px;
+}
+
+.optfr3 {
+    width: 390px;
+    height: 190px;
+}
+
+.opt {
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin: 2px;
+
+}
+
+.property {
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.value {
+    font-family: Libre Caslon Text;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.product {
+    display: flex;
+    margin: 0px;
+    gap: 45px;
+}
+
+.opt1 {
+    margin-top: 10px;
+    position: absolute;
+}
+
+.opt1 img {
+    width: 21px;
+    height: 21px;
+}
+
+.opt2 {
+    margin-top: 10px;
+    position: absolute;
+}
+
+.opt2 .product {
+    margin-top: 20px;
+}
+
+.optpart1 {
+    display: flex;
+    justify-content: center;
+}
+
+.optpart2 {
+    display: flex;
+    justify-content: center;
+}
+
+.optpart3 {
+    display: flex;
+    justify-content: center;
+}
+
+.optfr2 {
+    width: 390px;
+    height: 190px;
+}
+
+.opt3 {
+    margin-top: 10px;
+    position: absolute;
+}
+
+.nextpage {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 10px;
+}
+
+.nextpage img {
+    width: 36px;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0.6;
+}
+
+.nextpage img:hover {
+    transform: scale(1.3);
+    opacity: 1;
+}
+
+
+
+
+
+.sixthPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.sixthPage img {
+    width: 100%;
+    height: 100%;
+}
+
+.p6text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 130px;
+}
+
+.imgtext {
+    font-family: Libre Caslon Text;
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 9px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 3px;
+}
+
+.btntext {
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.p6btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    cursor: pointer;
+}
+
+.p6btn img {
+    width: 256px;
+    height: 64px;
+    position: absolute;
+}
+
+.p6btn p {
+    font-size: 16px;
+    position: absolute;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+}
+
+.logos img {
+    cursor: pointer;
+}
+
+.logo1 {
+    width: 276px;
+    height: 72px;
+}
+
+.logo2 {
+    width: 126px;
+    height: 51px;
+}
+
+.logo3 {
+    width: 329px;
+    height: 172px;
+
+}
+
+.logo4 {
+    width: 183px;
+    height: 49px;
+}
+
+.logo5 {
+    width: 177px;
+    height: 74px;
+}
+
+.flogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.line1 {
+    text-align: center;
+    width: 229px;
+    color: #767676;
+    color: #767676;
+    margin-top: 80px;
+}
+
+.line2 {
+    text-align: center;
+    width: 229px;
+    color: #767676;
+    margin-bottom: 80px;
+
+}
+
+
+
+
+
+@media (max-width: 900px) {
+    .imgtext {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 861px) {
+    .logos {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 812px) {
+    .imgtext {
+        font-size: 30px;
+    }
+
+    .p6btn img {
+        width: 236px;
+        height: 44px;
+    }
+
+    .p6btn p {
+        font-size: 15px;
+    }
+
+    .fifthPage {
+        margin-top: 800px;
+    }
+
+
+}
+
+@media (max-width: 700px) {
+    .heading5 h1 {
+        font-size: 30px;
+    }
+
+    .fourthPage h1 {
+        font-size: 50px;
+    }
+
+    .imgtext {
+        font-size: 20px;
+    }
+
+    .p6btn img {
+        width: 190px;
+        height: 50px;
+    }
+
+    .p6btn p {
+        font-size: 10px;
+    }
+
+    .sPframe1 {
+        width: 550px;
+        height: 680px;
+    }
+
+    .secpageimg {
+        width: 550px;
+        height: 640px;
+    }
+
+    .logo1 {
+        width: 246px;
+        height: 52px;
+    }
+
+    .logo2 {
+        width: 126px;
+        height: 32px;
+    }
+
+    .logo3 {
+        width: 309px;
+        height: 152px;
+    }
+
+    .logo4 {
+        width: 163px;
+        height: 29px;
+    }
+
+    .logo5 {
+        width: 157px;
+        height: 54px;
+    }
+}
+
+@media (max-width: 640px) {
+    .secondPage {
+        padding: 150px 10px;
+    }
+
+    .fr3 {
+        width: 450px;
+        height: 790px;
+    }
+
+    .img3 {
+        width: 430px;
+        height: 750px;
+    }
+
+    .sPframe1 {
+        width: 500px;
+        height: 600px;
+    }
+
+    .secpageimg {
+        width: 500px;
+        height: 580px;
+    }
+
+}
+
+@media (max-width: 572px) {
+    .fourthPage h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 543px) {
+    .fifthPage {
+        margin-top: 1100px;
+    }
+}
+
+.worldtext1 {
+    font-family: Libre Caslon Text;
+    font-weight: 800;
+    font-style: Bold;
+    font-size: 15px;
+    line-height: 143%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.worldtext2 {
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin: 0px;
+}
+
+.worldvec {
+    position: absolute;
+}
+
+.shippping {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.worldel {
+    width: 80px;
+    height: 80px;
+}
+
+.worldshipping {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.worldvec {
+    width: 32px;
+    height: 32px;
+}
+
+.suppel {
+    width: 80px;
+    height: 80px;
+}
+
+.suppvec {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+}
+
+.supp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.support {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.money {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.moneyimgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monel {
+    width: 80px;
+    height: 80px;
+}
+
+.moneyvec {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+}
+
+.info {
+    padding: 50px 10px;
+    background-color: #FFFAF8;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer {
+    margin-top: 90px;
+}
+
+footer img {
+    width: 480px;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+}
+
+.footerH1 {
+    display: flex;
+    justify-content: center;
+}
+
+.footerH1 h1 {
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.followUS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.followUS h1 {
+    font-family: Libre Caslon Text;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.followUS a {
+    text-decoration: none;
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #000;
+    padding: 5px 5px;
+}
+
+.sites {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.menu h1 {
+    font-family: Libre Caslon Text;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.links a {
+    text-decoration: none;
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #000;
+    padding: 5px 5px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.contact h1 {
+    font-family: Libre Caslon Text;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.infrm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.infrm a {
+
+    text-decoration: none;
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #000;
+    padding: 5px 5px;
+}
+
+.ftr {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 200px;
+}
+
+.rights {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.rights p {
+    font-family: Libre Caslon Text;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.lastline {
+    display: flex;
+    justify-content: center;
+    margin: 10px 5px;
+}
+
+.lastline img {
+    width: 1236px;
+    height: 1px;
+}
+
+
+
+
+
+@media (max-width: 670px) {
+    .commentInputs input {
+        width: 520px;
+        height: 50px;
+    }
+}
+
+
+
+.newsHeading h1{
+    font-family: Libre Caslon Text;
+font-weight: 500;
+font-size: 50px;
+letter-spacing: 6px;
+text-transform: uppercase;
+text-align: center;
+margin-bottom: 0px;
+
+}
+.newsHeading p{
+    font-family: Libre Caslon Text;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 3px;
+text-transform: capitalize;
+text-align: center;
+color: #5F5F5F;
+}
+.newsImgs{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.nImgs{
+    margin-top: 150px;
+    width: 480px;
+    height: 720px;
+}
+.nImg2{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.nImghead{
+
+font-family: Libre Caslon Text;
+font-weight: 500;
+font-size: 20px;
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+
+.nImgdes{
+    font-family: Libre Caslon Text;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 2px;
+margin: 0px;
+width: 350px;
+padding-left: 50px;
+
+}
+.nImg{
+    width: 480px;
+    height: 1000px;
+    display: block;
+    object-fit: cover;
+}
+.blurry{
+    position: absolute;
+    width: 480px;
+    height: 250px;
+    bottom: 0;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    background-color: rgba(255, 255, 255, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.rec{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rec img{
+    position: absolute;
+    cursor: pointer;
+
+}
+.rec p{
+    font-family: Libre Caslon Text;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 3px;
+text-transform: uppercase;
+
+}
+.texts{
+    margin-top: -100px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 1280px) {
+    .page4 {
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+
+    .aside4p h1 {
+        transform: none;
+        text-align: center;
+        writing-mode: horizontal-tb;
+        margin: 0px;
+    }
+
+    .asidetext p {
+        transform: none;
+        text-align: center;
+        writing-mode: horizontal-tb;
+        margin: 0px;
+    }
+
+    .fifthPage {
+        margin-top: 50px;
+    }
+    .newsImgs{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+@media (max-width: 560px) {
+    .fifthPage{
+        margin-top: 1100px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .aside4p {
+        order: 2;
+        margin-top: 20px;
+
+    }
+    .secondPage {
+        flex-wrap: wrap;
+    }
+    .fifthPage{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 760px) {
+    .fifthPage {
+        margin-top: 100px;
+    }
+}
+
+
+@media (max-width: 615px) {
+
+
+    .fifthPage {
+        margin-top: 100px;
+    }
+
+    .fourthPage h1 {
+        font-size: 35px;
+    }
+
+    .fr3 {
+        width: 400px;
+        height: 710px;
+    }
+
+    .img3 {
+        width: 400px;
+        height: 700px;
+    }
+
+    .fr1 {
+        width: 392px;
+        height: 643px;
+    }
+
+    .img1 {
+        width: 366px;
+        height: 598px;
+    }
+
+    .aside3p h1 {
+        font-size: 55px;
+    }
+
+    .aside3p p {
+        font-size: 20px;
+    }
+
+    .png {
+        width: 254px;
+        height: 374px;
+    }
+}
+.search{
+    display: flex;
+    flex-direction: column;
+}
+#search-input{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 140px;
+    height: 30px;
+}
