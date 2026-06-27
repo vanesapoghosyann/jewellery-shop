@@ -3,7 +3,7 @@ const container = document.querySelector(".cart-items");
 
 const cartMinQty = 0;
 const cartMaxQty = 30;
-
+const generalNum = document.querySelector(".generalNum")
 const subtotalEl = document.querySelector(".totalPrice");
 const grandTotalEl = document.querySelector(".grandTotPrice");
 const shippingAmount = 450;
@@ -61,7 +61,9 @@ function renderCart() {
         const removeBtn = div.querySelector(".removeBtn");
 
         function updateGeneral() {
-            generalNum.textContent = (item.price * item.quantity) + " USD";
+            const generalNum = document.querySelector(".generalNum")
+            
+            generalNum.innerText = (item.price * item.quantity) + " USD";
         }
 
         increaseBtn.addEventListener("click", () => {
@@ -71,6 +73,8 @@ function renderCart() {
                 updateGeneral()
                 saveCart();
                 updateTotals()
+                renderCart()
+
             }
         });
 
@@ -81,9 +85,12 @@ function renderCart() {
                 updateGeneral()
                 saveCart();
                 updateTotals()
+                renderCart()
             }
         });
-
+ if (item.quantity === 0) {
+        removeCartItem(item.id);
+    }
         removeBtn.addEventListener("click", (e) => {
             e.preventDefault();
             removeCartItem(item.id);
@@ -103,6 +110,7 @@ function removeCartItem(id) {
         cart.splice(index, 1);
         saveCart();
         renderCart();
+        updateTotals()
     }
 }
 
@@ -123,3 +131,18 @@ function updateTotals() {
 }
 
 renderCart();
+
+function updateBagCount() {
+  const cart = JSON.parse(localStorage.getItem("cart")) || [];
+  const bagCount = document.querySelector(".bag-count");
+
+  if (cart.length > 0) {
+    const bagCount = document.querySelector(".bag-count");
+    bagCount.style.display = "flex";
+    bagCount.textContent = cart.length;
+  } else {
+    bagCount.style.display = "none";
+  }
+}
+
+window.addEventListener("load", updateBagCount);

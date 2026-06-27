@@ -112,18 +112,10 @@ prodTit.style.color = '#000'
 
 
 function prodPage() {
-  const prodLine = document.querySelector(".prodLine")
-  prodLine.style.display = 'inline'
-
-  const shippLine = document.querySelector(".shippLine")
-  shippLine.style.display = 'none'
-  shippLine.style.marginLeft = '390px'
 
   const prodP = document.querySelector(".prodP")
   prodP.style.color = "#000"
   prodP.style.textAlign = "center"
-
-  shippLine.style.marginRight = '-90px'
 
   const shippP = document.querySelector(".shippP")
   shippP.style.color = "#A5A5A5"
@@ -135,33 +127,33 @@ function prodPage() {
   shippingP.style.display = 'none'
 }
 function shippingPage() {
-  const shippLine = document.querySelector(".shippLine")
-  shippLine.src = "./images/Line 6.png"
-  shippLine.style.marginLeft = '-90px'
-  shippLine.style.width = '350px'
-  shippLine.style.height = '1px'
 
-
-
-  const prodLine = document.querySelector(".prodLine")
-  prodLine.style.display = 'none'
 
   const shippP = document.querySelector(".shippP")
   shippP.style.color = "#000"
-
+const shipp = document.querySelector(".shipp")
+  const prode = document.querySelector(".prode")
+  prode.style.marginLeft ='120px'
+  prode.style.padding = '0px'
+  shipp.style.marginLeft = '-130px'
   const prodP = document.querySelector(".prodP")
   prodP.style.color = "#A5A5A5"
-  prodP.style.marginLeft = '50px'
-
+  prodP.style.position = 'relative'
+  
   const inf = document.querySelector(".inf")
   inf.style.display = 'none'
-
+  const extraDesHead = document.querySelector(".extraDesHead ")
+  extraDesHead.style.gap = '50px' 
 
   const shippingP = document.querySelector(".shippingP")
   shippingP.style.display = 'inline'
   shippingP.innerHTML = ''
   shippingP.innerHTML = "All international orders will be proceeded within 1-3 business days. The second stop for your parcel will be the delivery service. You will receive the tracking information regarding your order via email (check also your spam) as soon as the delivery services provide them. Please, take into consideration that during the tough periods we may provide tracking information within a week."
-  shippingP.style.width = '385px'
+  
+  shipp.style.width = '450px'
+  shipp.style.height = '100px'
+  shipp.style.margin = '0px'
+  shipp.style.padding = '0px'
   shippingP.style.marginTop = '20px'
 
 
@@ -255,7 +247,7 @@ function sizeClick() {
   const prodPar = document.querySelector(".prodPar")
   prodTit.style.color = '#A5A5A5'
   prodPar.style.color = '#A5A5A5'
-  prodPar.style.color = '#A5A5A5'
+  prodArrow.style.color = '#A5A5A5'
   sizeTit.style.color = '#000'
   sizeP.style.color = '#000'
   sizeArrow.style.color = '#000'
@@ -293,6 +285,13 @@ function careClick() {
 
 
 document.querySelector(".addCard").addEventListener("click", function () {
+
+  const quantity = parseInt(document.querySelector(".singlePNum").textContent);
+
+  if (quantity === 0) {
+    alert("Quantity must be greater than 0 to add to the basket.");
+    return;
+  }
   const product = {
     name: productList[id].title,
     price: productList[id].price, 
@@ -303,6 +302,38 @@ document.querySelector(".addCard").addEventListener("click", function () {
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
   cart.push(product);
   localStorage.setItem("cart", JSON.stringify(cart));
+
+  const bag = document.querySelector(".bag")
+  bag.textContent = cart.length
 })
 
+const like = document.querySelector(".like")
 
+    like.addEventListener('click', () => {
+      console.log(like);
+      
+        const liked = like.dataset.liked === 'true';
+        like.dataset.liked = !liked;
+        console.log(liked);
+        
+        like.src = liked 
+            ? './images/Vector 12.png'    
+            : './images/heart.png';
+    });
+
+
+    function updateBagCount() {
+
+  const cart = JSON.parse(localStorage.getItem("cart")) || [];
+  const bagCount = document.querySelector(".bag-count");
+
+  if (cart.length > 0) {
+    const bagCount = document.querySelector(".bag-count");
+    bagCount.style.display = "flex";
+    bagCount.textContent = cart.length;
+  } else {
+    bagCount.style.display = "none";
+  }
+}
+
+window.addEventListener("load", updateBagCount);

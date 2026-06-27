@@ -1,6 +1,5 @@
-
-
-let searchIcon = document.querySelector(".searchIcon")
+let searchIcon =
+document.querySelector(".searchIcon")
 let productResults = document.querySelector(".productResult")
 let searchContainer = document.querySelector(".search")
 let searchInput
@@ -10,7 +9,8 @@ searchIcon.addEventListener("click", () => {
 
         searchInput = document.createElement('input');
         console.log(searchInput);
-
+        searchInput.style.marginTop = '54px'
+        searchInput.style.width = '140px'
         searchInput.type = 'text';
         searchInput.id = 'search-input';
         searchInput.placeholder = 'Search products...';
@@ -161,3 +161,17 @@ let searchContainer = document.querySelector(".search")
     }
   }
 });
+function updateBagCount() {
+  const cart = JSON.parse(localStorage.getItem("cart")) || [];
+  const bagCount = document.querySelector(".bag-count");
+
+  if (cart.length > 0) {
+    const bagCount = document.querySelector(".bag-count");
+    bagCount.style.display = "flex";
+    bagCount.textContent = cart.length;
+  } else {
+    bagCount.style.display = "none";
+  }
+}
+
+window.addEventListener("load", updateBagCount);

@@ -7,7 +7,13 @@
     width: 606px;
     height: 524px;
 }
+.productTitle, .productPrice, .quan{
+    padding: 10px 0px;
 
+}
+.heritage{
+    padding: 10px 0px;
+}
 
 
 .quantity {
@@ -85,8 +91,11 @@
     align-content: center;
     gap: 10px;
     margin-top: 10px;
+    padding: 10px 0px;
 }
-
+.extraDescrip{
+    margin-top: 20px;
+}
 .flight img {
     width: 25px;
     height: 25px;
@@ -160,7 +169,7 @@
 .extraDesHead {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 200px;
     text-align: center;
 }   
 .prode img {
@@ -176,6 +185,7 @@
     letter-spacing: 2px;
     text-transform: capitalize;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .shippP{
@@ -196,7 +206,13 @@
 }
 #descrip h1{
     text-align: center;
+    padding: 20px 0px;
 }
+.infoTit, .sizeTit, .careTit, .compoTit{
+    padding: 20px 0px;
+
+}
+
 #composition h1{
     text-align: center;
 }
@@ -211,6 +227,7 @@
     display: flex;
     flex-direction: column;
     width: 360px;
+    margin-top: 11px
 }
 #careTips h1{
     text-align: center;
@@ -273,18 +290,22 @@ color: #A5A5A5;
 }
 .shippingP{
 
-
 font-family: Libre Caslon Text;
 font-weight: 400;
 font-size: 16px;
-letter-spacing: 1px;
+letter-spacing: 1px
 }
 
-
+.shippP{
+    padding: 20px 0px;
+}
 .infoP{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+.prodP{
+    margin-top: 15px;
 }
 
 .prodArrow{
@@ -313,6 +334,22 @@ letter-spacing: 1px;
     border: solid 1px;
 }
 
-.prode{
-    position: relative;
+.bag-count {
+  position: absolute;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none; 
+  margin-left: 20px;
+  margin-top: -45px;
+}
+footer{
+    margin-top: 150px;
 }

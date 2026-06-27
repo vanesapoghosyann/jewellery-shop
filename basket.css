@@ -1,4 +1,3 @@
-
 .basketItems{
     margin-left: 10px;
     margin-right: 10px;
@@ -81,8 +80,7 @@
     border: 1px solid #000;
     border-radius: 30px;
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 20px 70px;
     margin-top: 80px;
 
 }
@@ -104,6 +102,7 @@
     text-transform: uppercase;
     color: #5F5F5F;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .priceText {
@@ -167,7 +166,7 @@
     flex-direction: row;
     gap: 60px;
     justify-content: center;
-    margin-left: 180px;
+    margin-left: -10px;
 }
 
 .gobackVector {
@@ -287,6 +286,7 @@ text-transform: capitalize;
     margin-right: 20px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .gobVec{
     margin-top: 10px;
@@ -297,6 +297,7 @@ text-transform: capitalize;
     border-radius: 45px;
     margin-top: 10px;
     cursor: pointer;
+    padding: 10px 0px;
 }
 .buy p{
     font-family: Libre Caslon Text;
@@ -314,4 +315,42 @@ align-content: center;
 .addCoupon{
     text-decoration-line: underline;
     color: #5F5F5F
+}
+
+.bag-count {
+  position: absolute;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none; 
+  margin-left: 20px;
+  margin-top: -45px;
+}
+@media (max-width: 1700px) {
+    .headlines{
+        margin-left: -10px;
+    }
+}
+@media (max-width: 1600px) {
+    .headlines{
+        margin-left: 20px;
+    }
+    
+}
+@media (max-width: 1430px) {
+    .headlines{
+        margin-left: 100px;
+    }
+}
+@media (max-width: 1290px) {
+    .headlines{
+        margin-left: 229px;
+    }
 }

@@ -25,11 +25,11 @@
                 <nav>
                     <ul class="navlinks">
                         <li><a href="./index.html">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="./index.html#about">About</a></li>
                         <li><a href="./latestNews.html">News</a></li>
                         <li><a href="./login.html">Account</a></li>
                         <li><a href="./shop.html">Shop</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -50,6 +50,7 @@
                     </div>
                     <div class="shoppingBag">
                         <a href="./basket.html"><img src="./images/Shopping bag.png" alt="bag" class="bag"></a>
+                        <p class="bag-count">0</p>
                     </div>
                 </div>
             </div>
@@ -83,7 +84,7 @@
                         </div>
                     </div>
                     <div class="like">
-                        <img src="./images/Vector 6.png" alt="like">
+                        <img src="./images/Vector 6.png" alt="like" data-liked="true">
                     </div>
                     <div class="addCard">
                        <a href="./basket.html"> <p>Add To Card</p></a>
@@ -105,11 +106,9 @@
             <div class="extraDesHead">
                 <div class="prode">
                     <p class="prodP" onclick="prodPage()">Product Description</p>
-                    <img src="./images/Line 6.png" class="prodLine">
                 </div>
                 <div class="shipp">
                     <p onclick="shippingPage()" class="shippP">Shipping Policy</p>
-                    <img src="" class="shippLine">
                     <div>
                         <p class="shippingP"></p>
                     </div>
@@ -154,7 +153,7 @@
                 </div>
         </div>
     </div>
-    <footer>
+    <footer id="contact">
         <div class="line">
             <img src="./images/Line 4.png" alt="line">
         </div>
@@ -174,10 +173,10 @@
             <div class="menu">
                 <h1>Menu</h1>
                 <div class="links">
-                    <a href="#">About</a>
+                    <a href="./index.html#about">About</a>
                     <a href="./login.html">Account</a>
                     <a href="./shop.html">Shop</a>
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </div>
             <div class="contact">

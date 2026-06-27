@@ -1,5 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .logo {
     display: flex;
+    justify-content: center;
 }
 
 .log {
@@ -15,10 +21,11 @@
 .logoimg {
     width: 100%;
     height: 100%;
+    margin-top: -10px;
 }
 
 nav {
-    margin-top: -10px;
+    margin-top: -9px;
 }
 
 .logotext {
@@ -32,6 +39,7 @@ nav {
     display: flex;
     flex-direction: row;
     padding: 0px;
+    gap: 8px;
 }
 
 .navlinks li {
@@ -42,7 +50,9 @@ nav {
     justify-content: center;
     padding: 10px;
 }
-
+.firstPage{
+    margin-top: 20px;
+}
 .navlinks li a {
     text-decoration: none;
     font-size: 16px;
@@ -58,8 +68,11 @@ nav {
 .navigation {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
-    padding: 0px 30px;
+    /* margin-top: 20px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 30px;
 }
 
 .parametres {
@@ -86,7 +99,6 @@ nav {
 .vector {
     width: 24px;
     height: 22.15px;
-    margin-top: 15px;
     cursor: pointer;
     opacity: 1;
 
@@ -116,7 +128,7 @@ nav {
 }
 
 .navend {
-    margin-top: 10px;
+    margin-top: -5px;
     padding: 0px 20px;
     display: flex;
     justify-content: row;
@@ -169,7 +181,7 @@ header {
 .frame2 {
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 140px;
 }
 
 .fr2images {
@@ -199,11 +211,12 @@ header {
 .fr3 {
     width: 616px;
     height: 949px;
+    margin-top: 110px;
 }
 
 .img3 {
     position: absolute;
-    margin-top: 20px;
+    margin-top: 130px;
     margin-left: 50px;
     width: 594px;
     height: 909px;
@@ -214,6 +227,7 @@ header {
     justify-content: space-evenly;
     align-items: flex-start;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .fr1text {
@@ -245,6 +259,18 @@ header {
     align-items: center;
 }
 
+
+@media (min-width: 1280px) {
+    .fr3{
+        margin-top: 180px;
+        width: 550px;
+    }
+    .img3{
+        margin-top: 210px;
+        width: 520px;
+    }
+
+}
 
 @media (max-width: 900px) {
     .navigation {
@@ -441,5 +467,88 @@ margin-top: 50px;
 @media (max-width: 1030px) {
     .rec2{
         margin-top: 100px;
+    }
+}
+.bag-count {
+  position: absolute;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none; 
+  margin-left: 20px;
+  margin-top: -45px;
+}
+
+@media (min-width: 1700px) {
+    .fr3{
+        margin-top: -70px;
+    }
+    .img3{
+        margin-top: -38px;
+    }
+    .page1text1{
+
+        margin-left: 30px;
+    }
+    .page1text2{
+        margin-left: 70px;
+    }
+    .navlinks li a{
+        font-size: 20px;
+    }
+    .logotext{
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    /* .logoimg{
+        margin-top: 10px;
+    } */
+        header{
+            padding: 10px 5px;
+        }
+        .vector{
+            margin-top: 0px;
+        }
+        .navend{
+            margin-top: -5px;
+        }
+}
+
+@media (min-width: 1600px) {
+    .frames{
+        flex-wrap: nowrap;
+    }
+
+}
+@media (min-width: 1422px) {
+    .frames{
+        flex-wrap: nowrap;
+    }
+    .fr1{
+        width: 450px;
+    }
+    .img1{
+        width: 440px;
+    }
+    .fr3{
+        width: 500px;
+        height: 850px;
+        margin-top: 0px;
+    }
+    .img3{
+        width: 470px;
+        height: 810px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .frames{
+        gap: 12px;
     }
 }
